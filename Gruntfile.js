@@ -57,6 +57,9 @@ module.exports = grunt => {
       test: {
         src: ['test/**/*.js', '!test/js/*.js']
       },
+      tmp: {
+        src: ['temp/**/*.js', '!test/js/*.js']]
+      },
       fix: {
         // src: is calculated below...
         options: {
